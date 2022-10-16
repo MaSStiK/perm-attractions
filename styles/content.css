@@ -1,0 +1,116 @@
+.content-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.content {
+    max-width: 1920px;
+    min-width: 1280px;
+    height: 8000px;
+    background-color: white;
+    box-shadow:
+   0 1px 4px rgba(0, 0, 0, .3),
+   -23px 0 20px -23px rgba(0, 0, 0, .8),
+   23px 0 20px -23px rgba(0, 0, 0, .8),
+   0 0 40px rgba(0, 0, 0, .1) inset;
+   border-radius: 3px;
+}
+
+.sight-container {
+    width: 100%;
+    height: 610px;
+}
+
+.sight-container__title-container {
+    width: 100%;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sight-container__title {
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.sight-container__content {
+    background-color: #b4b4b4;
+    width: 100%;
+    height: 490px;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sight-container__content-bg {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.684);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.sight-container__image-container {
+    z-index: 1;
+    width: 600px;
+    height: 460px;
+    margin: 0 80px 0 24px;
+}
+
+.sight-container__image {
+    width: 600px;
+    height: 460px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+.sight-container__text-container {
+    width: 1200px;
+    height: 450px;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+.sight-container__text {
+    color: white;
+    font-weight: 600;
+    font-size: 25px;
+    word-wrap: break-word;
+    line-height: 36px;
+}
+
+.sight-container__link {
+    width: 300px;
+    height: 55px;
+    z-index: 1;
+    position: absolute;
+    right: 40px;
+    bottom: 10px;
+    background-color: #9CA0FD;
+    border-radius: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    text-decoration: none;
+}
+
+.sight-container__link-text {
+    color: white;
+    font-size: 25px;
+    font-weight: 500;
+}
