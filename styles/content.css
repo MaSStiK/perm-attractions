@@ -2,20 +2,20 @@
     display: flex;
     justify-content: center;
     width: 100%;
-    height: 100%;
+    height: 6810px;
 }
 
 .content {
     max-width: 1920px;
     min-width: 1280px;
-    height: 8000px;
+    height: 6710px;
     background-color: white;
     box-shadow:
-   0 1px 4px rgba(0, 0, 0, .3),
-   -23px 0 20px -23px rgba(0, 0, 0, .8),
-   23px 0 20px -23px rgba(0, 0, 0, .8),
-   0 0 40px rgba(0, 0, 0, .1) inset;
-   border-radius: 3px;
+    0 1px 4px rgba(0, 0, 0, .3),
+    -23px 0 20px -23px rgba(0, 0, 0, .8),
+    23px 0 20px -23px rgba(0, 0, 0, .8),
+    0 0 40px rgba(0, 0, 0, .1) inset;
+    border-radius: 3px;
 }
 
 .sight-container {
@@ -89,7 +89,7 @@
 .sight-container__text {
     color: white;
     font-weight: 600;
-    font-size: 25px;
+    font-size: 20px;
     word-wrap: break-word;
     line-height: 36px;
 }

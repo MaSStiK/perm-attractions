@@ -10,6 +10,7 @@ body, html {
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
     overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 
 header {
@@ -56,18 +57,18 @@ header {
     transition: .2s;
     font-weight: 500;
     text-decoration: none;
-    color: white;
+    color: #FFFFFFB2;
 }
 
 .header-content__nav-button:hover, .header-content__company:hover {
-    color: #ababab;
+    color: #FFFFFF;
 }
 
 .header-content__company {
     font-weight: 500;
     margin-right: 100px;
     text-decoration: none;
-    color: white;
+    color: #FFFFFFB2;
     transition: .2s;
 }
 

@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/header.css">
     <link rel="stylesheet" href="styles/content.css">
+    <link rel="stylesheet" href="styles/footer.css">
     <link rel="shortcut icon" href="./assets/logo.png" type="image/x-icon">
     <title>Пермь от края до края</title>
 </head>
@@ -15,18 +16,16 @@
         <div class="header-content">
             <div class="header-content__nav">
                 <img src="./assets/logo.png" alt="logo" class="header-content__logo">
-                <a href="#"class="header-content__nav-button">Информация</a>
-                <a href="#" class="header-content__nav-button">Туры</a>
-                <a href="#" class="header-content__nav-button">Отзывы</a>
+                <a href="index.html"class="header-content__nav-button">Информация</a>
+                <a href="download.html" class="header-content__nav-button">Скачать</a>
             </div>
-            <a href="#" class="header-content__company">&lt;blank&gt;</a> <!--Потом по нажатию переход к footer-->
+            <a href="#bottom" id="top" class="header-content__company">&lt;blank&gt;</a> <!--Потом по нажатию переход к footer-->
         </div>
     </header>
     <div class="header-text">
         <p class="header-text_big">Пермский край</p>
         <p class="header-text_small">Посети самые лучшие места в<br>Перми и Пермском крае</p>
     </div>
-
     <div class="content-container">
         <div class="content">
             <div class="sight-container">
@@ -199,11 +198,27 @@
                     </a>
                 </div>
             </div>
+            <div class="sight-container">
+                <div class="sight-container__title-container">
+                    <p class="sight-container__title">Скачайте наше приложение</p>
+                </div>
+                <div class="sight-container__content" style="background-image: url('./assets/ProgramLogo.png');">
+                    <div class="sight-container__content-bg"></div>
+                    <div class="sight-container__image-container">
+                        <div class="sight-container__image" style="background-image: url('./assets/ProgramLogo.png');"></div>
+                    </div>
+                    <div class="sight-container__text-container">
+                        <p class="sight-container__text">Еще больше достопримечательностей вы можете найти в нашем бесплатном мобильном приложении, где вы также можете пройти тест и узнать какие достопримечательности для вас будут самыми подходящими!</p>
+                    </div>
+                    <a href="download.html" class="sight-container__link">
+                        <p class="sight-container__link-text">Скачать</p>
+                    </a>
+                </div>
+            </div>
         </div>
     </div>
-
     <footer>
-
+        <a href="#top" id="bottom" class="footer-text">Created by &lt;blank&gt;</a>
     </footer>
 </body>
 </html>
